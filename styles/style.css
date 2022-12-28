@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    height: 50px;
+    background-color: #e40;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    width: 100%;
+    justify-content: space-around;
+    text-transform: lowercase;
+}
+
+a {
+    color: #Ffff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+    gap: 40px;
+}
+
+input {
+    padding: 10px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.171);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.425);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.pokeContainer {
+    width: 230px;
+    height: 330px;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#app {
+    width: min-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 30px;
+}
+
+picture {
+    width: 100%;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    background: url("https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/204364595/original/86db6005cd51b4f60e71cca277f603a82cf5646a/draw-a-pixel-pokemon-battle-background.png")no-repeat;
+    background-position: -100px -100px;
+    padding: 25px;
+}
+
+
+
+img {
+    width: 100%;
+    height: 160px;
+    border: none;
+    object-fit: fill;
+    filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.575));
+}
+
+
+
+h2 {
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+
+h4 {
+    text-align: center;
+}
+
+.all {
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    width: 100% !important;
+    padding: 20px;
+}
